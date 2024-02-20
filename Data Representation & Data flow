@@ -1,0 +1,98 @@
+Data Communication
+  
+When we communicate, we are sharing information. This sharing can be local or remote.
+The term ‘telecommunication’ includes telephony, television means communication at a distance.
+The word ‘data’ refers to information presented in whatever form is agreed upon by the parties creating and using the data.
+Data communication is the exchange of data between two devices via some form of transmission medium such as a wire cable. For data communications to occur the communicating devices must be a part of a communication system made up of communication hardware (physical equipment) and software (programs).
+
+The effectiveness of a data communication system depends on four fundamental characteristics:--
+I.Delivery 
+II.Accuracy 
+III.Timelines 
+IV.Jitter 
+  
+1.Delivery—
+The system must deliver data to the correct destination, data must be received by the intended device or user and only by that device or user.
+2.Accuracy—
+ The system must deliver the data accurately, data that have been alerted in transmission and left uncorrected are unusable.
+3.Timelines—
+The system must deliver data promptly, data delivered late are useless. In the case of video and audio, timely delivery means delivering data as they are produced, in the same order that they are produced, and without significant delay. This kind of delivery is called real-time transmission.
+4.Jitter—
+Jitter refers to the variation in packet arrival time. It is the uneven delay in the delivery of audio & video packets.
+
+Components of Data Communication:
+1)Message 
+2)Sender 
+3)Receiver 
+4)Transmission medium 
+5)Protocol  
+
+1.Message—
+The message is the information (data) to be communicated. Popular forms of information include text, numbers, pictures, audio, and video.
+
+2.Sender—
+The sender is the device that sends the data message. It can be a computer, workstation, telephone handset, video camera, and so on.
+
+3.Receiver—
+The receiver is the device that receives the message. It can be a computer, workstation, telephone handset, and television.
+
+4.Transmission Medium—
+The transmission medium is the physical path by which a message travels from sender to receiver. Some examples of transmission mediums include twisted-pair wire, coaxial cable, fiber optics cable, and radio waves.
+
+5.Protocol—
+A protocol is a set of rules that govern data communication. It represents an agreement between the communicating devices. Without a protocol, two devices may be connected but not communicating. 
+
+
+Data Representation
+  
+A data representation in different form such as:-- 
+1)Text 
+2)Numbers 
+3)Images 
+4)Audio 
+5)Video 
+
+1.Text—
+In data communication, text is represented as a bit pattern. A sequence of a bit (0s or 1s). Different sets of bit patterns have been designed to represent text symbols. Each set is called a code and the process of representing symbols is called coding.
+2.Numbers—
+Numbers are also represented by bit patterns. However the code ASCII does not represent numbers, the number is directly converted to a binary number to simplify mathematical operations.
+3.Images—
+Images are also represented by bit patterns. In the simplest form, an image is composed of a matrix of pixels where each pixel is a small dot. The size of the pixels depends on the resolution. After an image is divided into pixels, each pixel is assigned a bit pattern. The size and value of the pattern depend on the image.
+If an image is not made of pure white and pure black pixels, you can increase the size of the bit pattern to include a grayscale.
+There are several methods to represent color images. One method is called RGB (Red, Green, Blue), and another method is called YCM (Yellow, Cyan, Magenta).
+4.Audio—
+Audio refers to the recording or broadcasting of sound or music. Audio is by nature different from text, and number images. It is continuous, not discrete.
+Even when we use a microphone to change voice or must to an electric signal, we create a continuous signal.
+5.Video—
+Video refers to the recording or broadcasting of a picture or movie. Video can either be produced as a continuous entity or it can be a combination of images, each a discrete entity arranged to convey the idea of motion.
+
+
+Data flow:
+
+Communication between two devices can be done in different ways. A data flow representation is different from such as---
+1)Simplex 
+2)Half duplex 
+3)Full duplex or Duplex 
+
+1.)Simplex—
+In simplex mode, the communication is unidirectional as on a one-way street. Only one of the two devices on a link can transmit, and the other can only receive. Keyboards and traditional monitors are examples of simplex devices. The keyboard can only introduce input, the monitor can only accept output.
+
+2.)Half duplex—
+In the duplex modes, each station can transmit and receive, but not at the same time. When one device is sending, the other can only receive and vice-versa.
+In a half-duplex transmission, the entire capacity of a channel is taken over by which ever of the two devices is transmitting at the time.
+ 
+3.)Full duplex—
+In full duplex mode (also called duplex), both stations can transmit and receive simultaneously.
+In full duplex mode, signals going in one direction share the capacity of the link with signals going in the other direction.
+On common example of full duplex communication is the telephone network. When two people are communicating by a telephone line, both can talk and listen at the same time. 
+
+
+
+
+
+
+
+
+
+
+
